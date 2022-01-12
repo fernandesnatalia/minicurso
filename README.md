@@ -1,2 +1,2 @@
-# minicurso
+# |Minicurso
 API do Rick and Morty
