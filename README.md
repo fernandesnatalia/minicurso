@@ -1,2 +1,2 @@
 # |Minicurso
-API do Rick and Morty
+Desafio do Rick and Morty
