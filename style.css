@@ -1,6 +1,6 @@
 body {
-    background-image: url(https://cutewallpaper.org/21/rick-and-morty-4k/Rick-and-Morty-Wallpapers-Top-Free-Rick-and-Morty-.jpg);
-    background-size: auto;
+    background-image: url(https://www.teahub.io/photos/full/152-1521234_rick-and-morty-the-old-man.png);
+    background-size: cover;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     min-height: 100vh;
@@ -24,7 +24,7 @@ main > section img {
 }
 
 main > section button {
-    background-color: #047200;
+    background-color: #069018;
     color: #ffffff;
     cursor: pointer;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -46,10 +46,12 @@ main > section button {
 #detalhes-container > li {
     align-items: baseline;
     align-content: center;
-    color:blanchedalmond;
+    color:black;
     display: flex;
 }
 
-#detalhes-container > li var {
-    color: #F8F8FF;
+#detalhes-container > li p {
+    background-color: rgba(156, 156, 156, 0.541);
+    border-radius: 3px;
+    color: black;    
 }

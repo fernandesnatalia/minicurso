@@ -14,6 +14,14 @@ traduzirCondicao = (data) => {
     } 
 }
 
+traduzirEspecie = (data) => {
+    if(data.species == 'unknown'){
+        return 'Desconhecida';
+    } else if(data.species !== 'unknown'){
+        return (data.species);
+    }
+}
+
 gerarValorAleatorio = () => {
     return Math.floor(Math.random() * 671);
 }
@@ -30,7 +38,7 @@ capturarPersonagem = () => {
         imagem.src = data.image;
         imagem.alt = data.name;
         nome.innerHTML = data.name;
-        especie.innerHTML = data.species;
+        especie.innerHTML = traduzirEspecie(data);
         condicao.innerHTML = traduzirCondicao(data);
     });
 }
