@@ -6,11 +6,11 @@ const condicao = document.querySelector('#status');
 
 traduzirCondicao = (data) => {
     if(data.status == 'unknown'){
-        return 'Puxa, não sabemos';
+        return ' Puxa, não sabemos';
     }else if(data.status == 'Alive'){
-        return 'Sim';
+        return ' Está sim';
     }else {
-        return 'Não. Mortinho da Silva';
+        return ' Não. Mortinho da Silva';
     } 
 }
 
