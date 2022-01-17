@@ -1,2 +1,2 @@
 # Minicurso front-end
-Desafio do Rick and Morty
+Página com informações sobre os personagens de Rick and Morty.
